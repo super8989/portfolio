@@ -1,5 +1,6 @@
 import React from 'react';
 import Work from './Work';
+import './Works.scss';
 
 import { experiences } from './work-list';
 
