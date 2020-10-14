@@ -7,6 +7,10 @@
 		img {
 			width: 6rem;
 			border-radius: 50%;
+
+			&:hover {
+				animation: wobble 1s infinite;
+			}
 		}
 	}
 
@@ -29,5 +33,19 @@
 				transform: scale(1.5);
 			}
 		}
+	}
+}
+
+@keyframes wobble {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(-13deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
 	}
 }
