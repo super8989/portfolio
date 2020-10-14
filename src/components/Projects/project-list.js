@@ -40,7 +40,7 @@ export const projects = [
 		title: 'Tweeter',
 		description:
 			'A simple single-page AJAX-based Twitter close using HTML5, CSS3, JS and jQuery.',
-		stack: 'React, SASS, Bootstrap, D3.js, Tone.js, Topojson, Node.js, Express',
+		stack: 'JavaScript, jQuery, HTML, CSS, Node.js, Express, MongoDB',
 		url: 'https://github.com/super8989/tweeter',
 	},
 	{
