@@ -1,0 +1,42 @@
+.work {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: rgb(61, 61, 61);
+	border-radius: 1px;
+	padding: 1.3rem 2rem;
+	line-height: 0.8rem;
+	transition: all 0.2s linear;
+	margin: 0.8rem 0;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	a {
+		color: unset;
+		text-decoration: unset;
+
+		&:hover {
+			cursor: pointer;
+			color: lightyellow;
+		}
+	}
+
+	h1 {
+		font-size: 1.3rem;
+	}
+
+	span {
+		font-size: 0.75rem;
+		color: rgb(206, 205, 205);
+	}
+
+	ul {
+		padding-inline-start: 1rem;
+	}
+
+	li {
+		font-size: 0.77rem;
+		line-height: 1.2rem;
+	}
+}

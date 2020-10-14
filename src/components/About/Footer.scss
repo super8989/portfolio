@@ -1,0 +1,33 @@
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	&--left {
+		img {
+			width: 6rem;
+			border-radius: 50%;
+		}
+	}
+
+	&--right {
+		width: 50%;
+		display: flex;
+		font-size: 1.8rem;
+		justify-content: space-around;
+		align-items: center;
+
+		a {
+			color: unset;
+		}
+
+		svg {
+			cursor: pointer;
+			transition: all 0.2s linear;
+
+			&:hover {
+				transform: scale(1.5);
+			}
+		}
+	}
+}
