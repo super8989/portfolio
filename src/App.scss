@@ -1,3 +1,5 @@
+@import './styles/_variables.scss';
+
 .App {
 	height: 100vh;
 	display: flex;
@@ -8,6 +10,13 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
+		@media (max-width: $bp-medium) {
+			width: 80%;
+			padding: unset;
+			box-sizing: border-box;
+			margin: auto;
+		}
 	}
 
 	&--right {
@@ -17,6 +26,21 @@
 		&-container {
 			padding: 0 4rem;
 			height: 100%;
+
+			@media (max-width: $bp-medium) {
+				padding: 0 1rem;
+			}
 		}
+
+		@media (max-width: $bp-medium) {
+			width: 100%;
+		}
+	}
+
+	@media (max-width: $bp-medium) {
+		width: 100%;
+		height: unset;
+		display: flex;
+		flex-direction: column;
 	}
 }
