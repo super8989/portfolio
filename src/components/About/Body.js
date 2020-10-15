@@ -20,6 +20,19 @@ function Body() {
 				Development Bootcamp and now I am ready to start my journey as a Junior
 				Full Stack Developer.
 			</p>
+			{/* <span>
+				Technologies Used:
+				<br />
+				Front End: React, JavaScript (ES6), HTML, CSS, SASS, Bootstrap, jQuery,
+				EJS, ERB
+				<br />
+				Back End: Node, Express, Ruby, Ruby on Rails
+
+				React, JavaScript (ES6), HTML, CSS, SASS, Bootstrap, jQuery, EJS, ERB,
+				Node, Express, Ruby, Ruby on Rails, Mocha, Chai, Jest, Cypress, RSpec,
+				Capybara, PostgreSQL, Photoshop, Illustrator, Leaflet.js, WordPress,
+				NetSuite, NopCommerce, Git, Netlify
+			</span> */}
 			{/* 
 			<p>
 				I love React and I love JavaScript. Believe it or not, coding is my
