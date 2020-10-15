@@ -7,6 +7,7 @@ import Title from './components/About/Title';
 import Subtitle from './components/About/Subtitle';
 import Projects from './components/Projects/Projects';
 import Works from './components/Work/Works';
+import Tech from './components/Tech/Tech';
 
 function App() {
 	return (
@@ -27,6 +28,8 @@ function App() {
 			</div>
 			<div className='App--right'>
 				<div className='App--right-container'>
+					<h1>Technical Skills</h1>
+					<Tech />
 					<h1>Projects</h1>
 					<Projects />
 					<h1>Work</h1>
