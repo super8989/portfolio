@@ -4,9 +4,10 @@ import Project from './Project';
 import { projects } from './project-list';
 
 const projectList = () => {
-	return projects.map((p) => {
+	return projects.map((p, index) => {
 		return (
 			<Project
+				key={index}
 				type={p.type}
 				title={p.title}
 				description={p.description}

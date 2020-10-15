@@ -5,8 +5,8 @@ function Work(props) {
 	const { date, title, company, summary, url } = props;
 
 	const displaySummary = () => {
-		return summary.map((s) => {
-			return <li>{s}</li>;
+		return summary.map((s, index) => {
+			return <li key={index}>{s}</li>;
 		});
 	};
 

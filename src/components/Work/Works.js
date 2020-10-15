@@ -5,9 +5,10 @@ import './Works.scss';
 import { experiences } from './work-list';
 
 const workList = () => {
-	return experiences.map((e) => {
+	return experiences.map((e, index) => {
 		return (
 			<Work
+				key={index}
 				date={e.date}
 				title={e.title}
 				company={e.company}
