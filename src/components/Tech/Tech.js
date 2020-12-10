@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from './tech-list';
+// import { skills } from './tech-list';
 import './Tech.scss';
 
 function Tech() {
