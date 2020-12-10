@@ -30,10 +30,10 @@ function App() {
 				<div className='App--right-container'>
 					<h1>Technical Skills</h1>
 					<Tech />
-					<h1>Projects</h1>
-					<Projects />
 					<h1>Work</h1>
 					<Works />
+					<h1>Projects</h1>
+					<Projects />
 				</div>
 			</div>
 		</div>

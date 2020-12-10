@@ -5,9 +5,9 @@ function Body() {
 	return (
 		<div className='body'>
 			<p>
-				I have a background in chemistry and fashion. I interned at Disney World Resort. I taught English in Korea. I was a radio news
-				anchor. I managed a convenience store. But best of all, I am a happy
-				family man.
+				I have a background in chemistry and fashion. I interned at Disney World
+				Resort. I taught English in Korea. I was a radio news anchor. I managed
+				a convenience store. But best of all, I am a happy family man.
 			</p>
 
 			<h2>I wanted to be part of the change shaping our future.</h2>
@@ -19,6 +19,7 @@ function Body() {
 				Development Bootcamp and now I am ready to start my journey as a Junior
 				Full Stack Developer.
 			</p>
+			<p>Specialties: PERN Stack</p>
 			{/* <span>
 				Technologies Used:
 				<br />

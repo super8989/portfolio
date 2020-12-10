@@ -15,14 +15,26 @@ function Tech() {
 
 	return (
 		<div className='tech'>
-			{/* <span>
-				Front End: React, JavaScript (ES6), HTML5, CSS3, SASS, Bootstrap,
-				jQuery, EJS, ERB
+			<span>
+				<b>Front End:</b> React, JavaScript (ES6), HTML5, CSS3, SASS, Bootstrap,
+				jQuery
 			</span>
 			<br />
-			<span>Back End: Node.js, Express, Ruby, Ruby on Rails</span>
+			<span>
+				<b>Back End:</b> Node.js, Express, Ruby, Ruby on Rails
+			</span>
 			<br />
-			<span>Testing: Mocha, Chai, Jest, Cypress, RSpec, Capybara</span>
+			<span>
+				<b>Database:</b> PostgreSQL
+			</span>
+			<br />
+			<span>
+				<b>Others:</b> Mocha, Chai, Jest, Storybook, WordPress, Photoshop,
+				Illustrator, NetSuite, Git
+			</span>
+			<br />
+
+			{/* <span>Testing: Mocha, Chai, Jest, Cypress, RSpec, Capybara</span>
 			<br />
 			<span>Database: PostgreSQL</span>
 			<br />
@@ -31,7 +43,7 @@ function Tech() {
 			<span>Libraries: Leaflet.js</span>
 			<br />
 			<span>Other: WordPress, NetSuite, NopCommerce, Git, Netlify</span> */}
-			<span>{displaySkills().join(', ')}</span>
+			{/* <span>{displaySkills().join(', ')}</span> */}
 		</div>
 	);
 }

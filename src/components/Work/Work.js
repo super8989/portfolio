@@ -1,5 +1,7 @@
 import React from 'react';
 import './Work.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function Work(props) {
 	const { date, title, company, summary, url } = props;
@@ -16,7 +18,7 @@ function Work(props) {
 			<h1>{title}</h1>
 			<span>
 				<a href={url} target='_blank' rel='noopener noreferrer'>
-					{company}
+					{company} <FontAwesomeIcon icon={faGlobe} />
 				</a>
 			</span>
 			<ul>{displaySummary()}</ul>
