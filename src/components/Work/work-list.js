@@ -2,7 +2,7 @@ export const experiences = [
 	{
 		date: "Oct '20 - Present",
 		title: 'Full Stack Developer',
-		company: 'BluechipTaco',
+		company: 'Bluechiptaco',
 		summary: [
 			'5-member start-up with a mission to connect job seekers with industry professionals',
 			'Implemented mentor spotlight feature to highlight available mentors',
