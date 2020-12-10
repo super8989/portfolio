@@ -30,7 +30,7 @@ function Tech() {
 			<br />
 			<span>
 				<b>Others:</b> Mocha, Chai, Jest, Storybook, WordPress, Photoshop,
-				Illustrator, NetSuite, Git
+				Illustrator, NetSuite, Git, Netlify
 			</span>
 			<br />
 
