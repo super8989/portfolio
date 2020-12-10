@@ -3,15 +3,15 @@ import { skills } from './tech-list';
 import './Tech.scss';
 
 function Tech() {
-	const displaySkills = () => {
-		skills.sort(function (a, b) {
-			if (a.toLowerCase() < b.toLowerCase()) return -1;
-			if (a.toLowerCase() > b.toLowerCase()) return 1;
-			return 0;
-		});
+	// const displaySkills = () => {
+	// 	skills.sort(function (a, b) {
+	// 		if (a.toLowerCase() < b.toLowerCase()) return -1;
+	// 		if (a.toLowerCase() > b.toLowerCase()) return 1;
+	// 		return 0;
+	// 	});
 
-		return skills;
-	};
+	// 	return skills;
+	// };
 
 	return (
 		<div className='tech'>
